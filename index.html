@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<title>Shop elements</title>
+</head>
+
+<body>
+
+	<div class="container border"></div>
+
+
+
+	<script>
+		fetch('../data/data.json')
+			.then(response => response.json())
+			.then(data => {
+				console.log(data)
+				render(data)
+			})
+
+		function render(obj) {
+			// cím megjelenítése
+			let h1 = document.createElement('h1')
+			document.querySelector('.container').appendChild(h1)
+			h1.innerHTML = 'List'
+			h1.classList.add('text-center', 'p-3')
+
+			// members renderelése (tömbben vannak)
+			let arr = obj.products
+			console.log(arr)
+
+			// tárolódiv a sorokhoz
+			let divRow = document.createElement('div')
+			divRow.classList.add('row')
+			document.querySelector('.container').appendChild(divRow)
+
+			//2. módszer
+
+			for (let o of arr) {
+
+				document.querySelector('.row').innerHTML += `
+				<div class="col border shadow mr-1">
+					<h2>${o.name}</h2>
+					<div>id: ${o.id}</div>
+							<img src="${o.imgPath}" alt="">
+					</div>
+				`
+			}
+		}
+	</script>
+
+</body>
+
+</html>
