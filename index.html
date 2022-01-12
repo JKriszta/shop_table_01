@@ -22,8 +22,6 @@
 
 	<div class="container p-4"></div>
 
-
-
 	<script>
 		fetch('./data2.json')
 			.then(response => response.json())
@@ -33,7 +31,6 @@
 				renderItems(data)
 			})
 
-
 		function renderItems(obj) {
 			// cím megjelenítése
 			let h1 = document.createElement('h1')
@@ -41,21 +38,24 @@
 			h1.innerHTML = 'Termékek'
 			h1.classList.add('text-center', 'p-3')
 
-
 			// tárolódiv a sorokhoz
 			let divRow = document.createElement('div')
 			divRow.classList.add('row')
 			document.querySelector('.container').appendChild(divRow)
 
-
 			//2. módszer
 
 			for (let o of obj) {
 
+				// catch number of image in the image link
+				let imgLink = o['Kép URL kód']
+				let id = (imgLink.slice(-8)).replace('.jpg', '');
+				console.log(id)
+
 				document.querySelector('.row').innerHTML += `
 				<div class="col shadow shadow-intensity-xl rounded mr-3 bg-info bg-gradient">
 					<h5 class='text-center'>${o['Termék teljes neve (Magyar)']}</h5>
-					<div class='text-center m-2'>azonosító: ${o.id}</div>
+					<div class='text-center m-2 font-weight-bold border-top border-dark'>ID: ${id}</div>
 					<a href="${o['Kép URL kód']}" target="_blank"><img class='img-thumbnail' src="${o['Kép URL kód']}" alt=""></a>
 							<p class='text-center m-2'>${o['Termék rövid leírása (Magyar)']}</p>
 					</div>
