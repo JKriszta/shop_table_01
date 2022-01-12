@@ -11,6 +11,11 @@
 		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 	<title>Shop elements</title>
+	<style>
+		p {
+			font-size: 0.8rem;
+		}
+	</style>
 </head>
 
 <body>
@@ -20,7 +25,7 @@
 
 
 	<script>
-		fetch('./data.json')
+		fetch('./data2.json')
 			.then(response => response.json())
 			.then(data => {
 				console.log(data)
@@ -35,8 +40,7 @@
 			h1.classList.add('text-center', 'p-3')
 
 			// members renderelése (tömbben vannak)
-			let arr = obj.products
-			console.log(arr)
+
 
 			// tárolódiv a sorokhoz
 			let divRow = document.createElement('div')
@@ -45,13 +49,14 @@
 
 			//2. módszer
 
-			for (let o of arr) {
+			for (let o of obj) {
 
 				document.querySelector('.row').innerHTML += `
 				<div class="col border shadow mr-1">
-					<h2>${o.name}</h2>
-					<div>id: ${o.id}</div>
-							<img src="${o.imgPath}" alt="">
+					<h4 class='text-center'>${o['Termék teljes neve (Magyar)']}</h4>
+					<div class='text-center'>number: ${o.id}</div>
+							<img class='img-thumbnail' src="${o['Kép URL kód']}" alt="">
+							<p class='text-center'>${o['Termék rövid leírása (Magyar)']}</p>
 					</div>
 				`
 			}
