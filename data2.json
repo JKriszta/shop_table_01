@@ -250,7 +250,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8709.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "SPA1474",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -275,7 +275,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8710.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "O9341",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -300,7 +300,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8711.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "VEGAN1681",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -325,7 +325,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8712.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "CAN1740",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -350,7 +350,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8713.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "KJMN0814",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -375,7 +375,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8714.jpg"
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
@@ -400,7 +400,7 @@
 		"Kép URL kód": ""
 	},
 	{
-		"ID": "",
+		"ID": "id",
 		"Cikkszám": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
