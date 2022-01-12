@@ -12,15 +12,29 @@
 
 	<title>Shop elements</title>
 	<style>
+		h1 {
+			margin: 30px;
+			font-variant: small-caps;
+		}
+
+		.itemNameDiv {
+			height: 120px;
+		}
+
 		p {
 			font-size: 0.8rem;
 		}
 	</style>
 </head>
 
-<body class="bg-dark">
+<body class="">
 
-	<div class="container p-4"></div>
+	<div class='d-flex justify-content-center bg-dark'>
+		<h1 class="text-info">Termékek</h1>
+	</div>
+
+	<div class="container-xxl bg-dark p-3"></div>
+
 
 	<script>
 		fetch('./data2.json')
@@ -32,16 +46,13 @@
 			})
 
 		function renderItems(obj) {
-			// cím megjelenítése
-			let h1 = document.createElement('h1')
-			document.querySelector('.container').appendChild(h1)
-			h1.innerHTML = 'Termékek'
-			h1.classList.add('text-center', 'p-3')
+
 
 			// tárolódiv a sorokhoz
 			let divRow = document.createElement('div')
-			divRow.classList.add('row')
-			document.querySelector('.container').appendChild(divRow)
+			divRow.classList.add('row', 'd-flex', 'justify-content-center')
+			document.querySelector('.container-xxl').appendChild(divRow)
+
 
 			//2. módszer
 
@@ -51,12 +62,17 @@
 				let imgLink = o['Kép URL kód']
 				let id = (imgLink.slice(-8)).replace('.jpg', '');
 				console.log(id)
+				console.log(eval(o.ID))
 
 				document.querySelector('.row').innerHTML += `
-				<div class="col shadow shadow-intensity-xl rounded mr-3 bg-info bg-gradient">
-					<h5 class='text-center'>${o['Termék teljes neve (Magyar)']}</h5>
-					<div class='text-center m-2 font-weight-bold border-top border-dark'>ID: ${id}</div>
-					<a href="${o['Kép URL kód']}" target="_blank"><img class='img-thumbnail' src="${o['Kép URL kód']}" alt=""></a>
+				<div class="col-md-4 col-lg-2 col-6 mb-3 m-50 shadow shadow-intensity-xl rounded mr-3 bg-info bg-gradient">
+					<div class='itemNameDiv'>
+					<h5 class='text-center font-weight-bold pt-2'>${o['Termék teljes neve (Magyar)']}</h5>
+					</div>
+					<div class='text-center m-2 font-weight-bold border-top border-bottom border-danger'>ID: ${eval(o.ID)}</div>
+					<div class='imgDiv p-3'>
+					<a href="${o['Kép URL kód']}" target="_blank"><img class='img-thumbnail shadow' src="${o['Kép URL kód']}" alt=""></a>
+					</div>
 							<p class='text-center m-2'>${o['Termék rövid leírása (Magyar)']}</p>
 					</div>
 				`

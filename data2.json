@@ -1,5 +1,6 @@
 [
 	{
+		"ID": "id",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "Mosakodás",
@@ -7,7 +8,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "Kallos",
-		"Forgalmazó/beszállító/gyártó": "Kallos Cosmetics Kft.",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": "Kallos Cosmetics Kft."
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": 1,
 		"Űrmérték számmal (pl. 4g - tehát 4)": 200,
 		"Űrmérték": "ml",
@@ -23,6 +28,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8700.jpg"
 	},
 	{
+		"ID": "id",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "Hajápolás",
@@ -30,7 +36,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "Kallos",
-		"Forgalmazó/beszállító/gyártó": "Kallos Cosmetics Kft.",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": "Kallos Cosmetics Kft."
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": 1,
 		"Űrmérték számmal (pl. 4g - tehát 4)": 30,
 		"Űrmérték": "ml",
@@ -46,6 +56,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8701.jpg"
 	},
 	{
+		"ID": "id",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "Hajápolás",
@@ -53,7 +64,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "Kallos",
-		"Forgalmazó/beszállító/gyártó": "Kallos Cosmetics Kft.",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": "Kallos Cosmetics Kft."
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": 1,
 		"Űrmérték számmal (pl. 4g - tehát 4)": 200,
 		"Űrmérték": "ml",
@@ -69,6 +84,7 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8702.jpg"
 	},
 	{
+		"ID": "id",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "Hajápolás",
@@ -76,7 +92,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "Kallos",
-		"Forgalmazó/beszállító/gyártó": "Kallos Cosmetics Kft.",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": "Kallos Cosmetics Kft."
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": 1,
 		"Űrmérték számmal (pl. 4g - tehát 4)": 50,
 		"Űrmérték": "ml",
@@ -92,6 +112,35 @@
 		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8703.jpg"
 	},
 	{
+		"ID": "",
+		"EAN kód (Vonalkód)": "",
+		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
+		"Foodpanda vagy egyedi kategória": "Hajápolás",
+		"Termék teljes neve (Magyar)": "KJMN VOLUMENNÖVELŐ SPRAY TARTÁS NÉLKÜLI HAJRA",
+		"Termék ára": "",
+		"Maximum eladási darab": "",
+		"Termék márkája": "Kallos",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": "Kallos Cosmetics Kft."
+			}
+		},
+		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": 1,
+		"Űrmérték számmal (pl. 4g - tehát 4)": 200,
+		"Űrmérték": "ml",
+		"Termék bruttó súlya": "200g",
+		"ÁFA": "27%",
+		"Termék rövid leírása (Magyar)": "Kallos Volumennövelő Spray tartás nélküli, vékonyszálú, élettelen hajra. Különlegesen dús hatást és tartást ad a vékonyszálú, élettelen hajnak, megemeli a hajtövet. A hajszálakat körülölelő védő filmréteg dússá, erőssé és csillogóvá varázsolja a hajat.",
+		"Összetevők (Magyar)": "",
+		"Allergének (Magyar)": "",
+		"Tápérték (Magyar)": "",
+		"Tárolás (Magyar)": "",
+		"Elkészítés és felhasználás": "",
+		"Származási ország kódja": "HU",
+		"Kép URL kód": "https://jkriszta.github.io/shop_table_01/img/8704.jpg"
+	},
+	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "",
@@ -99,7 +148,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
@@ -115,6 +168,7 @@
 		"Kép URL kód": ""
 	},
 	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "",
@@ -122,7 +176,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
@@ -138,6 +196,7 @@
 		"Kép URL kód": ""
 	},
 	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "",
@@ -145,7 +204,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
@@ -161,6 +224,7 @@
 		"Kép URL kód": ""
 	},
 	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "",
@@ -168,7 +232,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
@@ -184,6 +252,7 @@
 		"Kép URL kód": ""
 	},
 	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
 		"Foodpanda vagy egyedi kategória": "",
@@ -191,7 +260,11 @@
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
@@ -207,14 +280,19 @@
 		"Kép URL kód": ""
 	},
 	{
+		"ID": "",
 		"EAN kód (Vonalkód)": "",
 		"Csomag EAN kód (pl. ajándékcsomag - több termék egybe csomagolva)": "",
-		"Foodpanda vagy egyedi kategória": "",
+		"Foodpanda vagy egyedi kategória": "Bőrápolás",
 		"Termék teljes neve (Magyar)": "",
 		"Termék ára": "",
 		"Maximum eladási darab": "",
 		"Termék márkája": "",
-		"Forgalmazó/beszállító/gyártó": "",
+		"Forgalmazó": {
+			"beszállító": {
+				"gyártó": ""
+			}
+		},
 		"Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)": null,
 		"Űrmérték számmal (pl. 4g - tehát 4)": null,
 		"Űrmérték": "",
