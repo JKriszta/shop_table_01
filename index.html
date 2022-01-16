@@ -61,8 +61,7 @@
 				// catch number of image in the image link
 				let imgLink = o['Kép URL kód']
 				let id = (imgLink.slice(-8)).replace('.jpg', '');
-				console.log(id)
-				console.log(eval(o.ID))
+
 
 				document.querySelector('.row').innerHTML += `
 				<div class="col-md-4 col-lg-2 col-6 mb-3 m-50 shadow shadow-intensity-xl rounded mr-3 bg-info bg-gradient">
