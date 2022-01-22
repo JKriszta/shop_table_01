@@ -21,8 +21,21 @@
 			height: 120px;
 		}
 
-		p {
-			font-size: 0.8rem;
+		.leiras {
+			font-size: 0.6rem;
+			height: 200px;
+		}
+
+		.osszetevok {
+			font-size: 0.6rem;
+		}
+
+		.info {
+			font-weight: bold;
+		}
+
+		.vonalkod {
+			font-size: 0.7rem;
 		}
 	</style>
 </head>
@@ -34,6 +47,8 @@
 	</div>
 
 	<div class="container-xxl bg-dark p-3"></div>
+
+
 
 
 	<script>
@@ -70,12 +85,31 @@
 					<h6 class='text-center font-weight-bold pt-2'>${o['Termék teljes neve (Magyar)']}</h6>
 					</div>
 
-					<div class='text-center mb-2 font-weight-bold border-bottom border-top border-danger'>Vonalkód: ${o['EAN kód (Vonalkód)']}</div>
-					<div class='imgDiv p-3'>
+					<div class='vonalkod text-center mt-1 mb-2 border-bottom border-top border-danger'>Vonalkód: ${o['EAN kód (Vonalkód)']}</div>
+					<div class='imgDiv pb-0'>
 					<a href="${o['Kép URL kód']}" target="_blank"><img class='img-thumbnail shadow' src="${o['Kép URL kód']}" alt=""></a>
 					</div>
-							<p class='text-center font-italic m-2'>${o['Termék rövid leírása (Magyar)']}</p>
+							<p class='leiras text-center font-italic mt-1'>${o['Termék rövid leírása (Magyar)']}</p>
+
+
+
+							<div class='info'>Ár: ${o['Termék ára']}</div>
+							<div class='info border-top border-danger'>Kiszerelés: ${o['Űrmérték számmal (pl. 4g - tehát 4)']} ${o['Űrmérték']}</div>
+							<div class='info border-bottom border-danger'>max. ${o['Maximum eladási darab']} db</div>
+
+
+							<div class="text-center osszetevok">Összetevők <br>${o['Összetevők (Magyar)']}</div>
+
+
+
+
+
+
 					</div>
+
+				
+				
+				
 				`
 			}
 		}
