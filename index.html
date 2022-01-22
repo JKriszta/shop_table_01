@@ -93,9 +93,10 @@
 
 
 
-							<div class='info'>Ár: ${o['Termék ára']}</div>
-							<div class='info border-top border-danger'>Kiszerelés: ${o['Űrmérték számmal (pl. 4g - tehát 4)']} ${o['Űrmérték']}</div>
-							<div class='info border-bottom border-danger'>max. ${o['Maximum eladási darab']} db</div>
+							<div class='info'>Ár: <span class="" style="float:right;">${o['Termék ára']}</span></div>
+							<div class='info border-top border-danger'>Kiszerelés: <span class="" style="float:right;">${o['Űrmérték számmal (pl. 4g - tehát 4)']} ${o['Űrmérték']}</span></div>
+							<div class='info'>Csomagban: <termék class="" style="float:right;">${o['Csomagban lévő temékek száma, ha 1 db-nál több (pl. 4x80g - ebben az esetben 4)']} termék</span></div>
+							<div class='info border-bottom border-danger'>max. <span class="" style="float:right;">${o['Maximum eladási darab']} db</span></div>
 
 
 							<div class="text-center osszetevok"><span class="font-weight-bold">Összetevők</span> <br>${o['Összetevők (Magyar)']}</div>
